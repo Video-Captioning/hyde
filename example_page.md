@@ -38,7 +38,6 @@ title: Example
 ---
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
 
 
 ### Sticky sidebar content
@@ -47,7 +46,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 
 ```html
 <body class="theme-base-08">
-  ...
+**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
 </body>
 <!-- Default sidebar -->
 <div class="sidebar">
