@@ -45,9 +45,6 @@ title: Example
 By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
 
 ```html
-<body class="theme-base-08">
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-</body>
 <!-- Default sidebar -->
 <div class="sidebar">
   <div class="container sidebar-sticky">
